@@ -33,7 +33,7 @@ module.exports = function(app) {
             return currentNote.id != noteId;
         });
 
-        for (furrentNote of data) {
+        for (currentNote of data) {
             currentNote.id = newId.toString();
             newId++;
         }
